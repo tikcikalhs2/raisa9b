@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home - SCORA</title>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      margin: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    .brand {
+      font-family: "madE Carving Soft PERSONAL USE", cursive, sans-serif;
+      font-size: 36px;
+      color: #3333FF;
+      margin-bottom: 10px;
+    }
+    /* Menu dengan tabel */
+    .menu-table {
+      width: 100%;
+      max-width: 1333px;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #917FBB; /* ungu */
+      text-align: center;
+    }
+    .menu-table td {
+      padding: 10px 20px;
+      user-select: none;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .menu-table a {
+      color: #FFFFFF;
+      text-decoration: none;
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .menu-table a:hover,
+    .menu-table a:focus {
+      background-color: #ff69b4; /* pink highlight */
+      outline: none;
+      cursor: pointer;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .product {
+      background-color: #917FBB;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      color: #FFFFFF;
+      padding-bottom: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(255,105,180,0.6); /* pink shadow */
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .product h3 {
+      font-size: 24px;
+      margin: 10px 0 5px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .product p {
+      font-size: 18px;
+      margin: 0 0 10px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .style2 {
+	font-family: "madE Carving Soft PERSONAL USE", cursive, sans-serif;
+	font-size: 36px;
+	color: #917FBB;
+	margin-bottom: 10px;
+	font-weight: bold;
+    }
+    .style30 {
+	font-size: 36px;
+	color: #FFFFFF;
+	font-weight: bold;
+    }
+.style32 {font-family: 'Playfair Display', serif}
+  </style>
+</head>
+<body>
+
+<header>
+    <div class="style2"><span class="logo-title style1 style32">SCORA</span></div>
+    <p><img src="img/Mask_group_4_d6d66b2424.png" width="1274" height="399" alt="SCORA Banner" /></p>
+    <p>&nbsp;</p>
+    <table width="1336" height="31" align="center" cellpadding="5" cellspacing="6">
+      <tr>
+        <td width="1312" bgcolor="#917FBB"><div align="center" class="style30"><marquee>BEST SELLER </marquee></div></td>
+      </tr>
+  </table>
+</header>
+
+<!-- Menu dengan tabel -->
+<table class="menu-table" cellspacing="0" cellpadding="0" role="navigation" aria-label="Menu Navigasi">
+  <tr>
+    <td><a href="#">HOME</a></td>
+    <td><a href="shopping guide.html">SHOPPING GUIDE</a></td>
+    <td><a href="Catalog (2).html">CATALOG</a></td>
+    <td><a href="profile.html">PROFIL</a></td>
+  </tr>
+</table>
+
+<main class="product-grid">
+  <article class="product">
+    <img src="img/product_image-1723198262.jpeg" alt="Moisturizer" />
+    <h3>Moisturizer</h3>
+    <p>Rp 56.000</p>
+  </article>
+  <article class="product">
+    <img src="img/9aee47df-c73b-49d5-b11c-9e18690dcc48-image-0-1751524395838.png" alt="Tone Up" />
+    <h3>Tone Up</h3>
+    <p>Rp 34.000</p>
+  </article>
+  <article class="product">
+    <img src="img/ss.jpg" alt="Sunscreen" />
+    <h3>Sunscreen</h3>
+    <p>Rp 45.000</p>
+  </article>
+  <article class="product">
+    <img src="img/images.jpg" alt="Eye Cream" />
+    <h3>Eye Cream</h3>
+    <p>Rp 38.000</p>
+  </article>
+  <article class="product">
+    <img src="img/serum.jpg" alt="Serum" />
+    <h3>Serum</h3>
+    <p>Rp 53.000</p>
+  </article>
+  <article class="product">
+    <img src="img/71415dd1-539b-4c4a-975b-8a420da99e2d-image-0-1736750347551.png" alt="Micellar Water" />
+    <h3>Micellar Water</h3>
+    <p>Rp 22.000</p>
+  </article>
+  <article class="product">
+    <img src="img/fc.png" alt="FW Salicylic Acid" />
+    <h3>FW Salicylic Acid</h3>
+    <p>Rp 42.000</p>
+  </article>
+  <article class="product">
+    <img src="img/images (2).jpg" alt="FW Micellar Water" />
+    <h3>FW Micellar Water</h3>
+    <p>Rp 42.000</p>
+  </article>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Home</title>
+<style type="text/css">
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Header styles */
+.style4 {
+    font-family: "madE Carving Soft PERSONAL USE";
+    font-size: 36px;
+    color: #3333FF;
+}
+.style14 {
+    color: #917FBB;
+    font-family: "Comic Sans MS";
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #663399; /* ungu */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto 20px auto;
+    max-width: 1340px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Comic Sans MS";
+}
+
+nav ul li a:hover {
+    background-color: #FF69B4; /* pink highlight */
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Best Seller marquee container */
+.marquee-container {
+    width: 1340px;
+    overflow: hidden;
+    margin: 0 auto 20px auto;
+    background-color: #917FBB;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 0;
+    animation: marqueeAnim 10s linear infinite;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+@keyframes marqueeAnim {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto 30px auto;
+    max-width: 1340px;
+    width: 100%;
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* Product Name and Price cells */
+.product-info {
+    background-color: #917FBB;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 5px;
+    font-family: "Comic Sans MS";
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.product-info .product-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-info .product-price {
+    font-size: 18px;
+}
+
+/* Style6 is used for td containing images */
+.style6 {
+    color: #6633FF;
+    font-family: "Comic Sans MS";
+}
+
+/* Style19 is used inside td div */
+.style19 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Remove old bgcolor from td and use CSS instead */
+</style>
+</head>
+
+<body>
+<div align="center" class="style4">
+  <p class="style14">SCORA</p>
+  <p><img src="img/Mask_group_4_d6d66b2424.png" width="1274" height="399" alt="Banner" /></p>
+</div>
+
+<!-- Best Seller with marquee animation -->
+<div class="marquee-container" aria-label="Best Seller">
+  <div class="marquee">BEST SELLER</div>
+</div>
+
+<!-- Navigation Menu -->
+<nav aria-label="Primary">
+  <ul>
+    <li><a href="#" tabindex="1">HOME</a></li>
+    <li><a href="#" tabindex="2">SHOPPING GUIDE</a></li>
+    <li><a href="#" tabindex="3">CATALOG</a></li>
+    <li><a href="#" tabindex="4">PROFIL</a></li>
+  </ul>
+</nav>
+
+<div align="center">
+
+  <table border="0" cellpadding="5" cellspacing="6">
+    <tr>
+      <td width="25%" class="style6">
+        <div class="style19">
+          <img src="img/product_image-1723198262.jpeg" width="341" height="303" alt="Moisturizer" />
+        </div>
+      </td>
+      <td width="25%" class="style6">
+        <div class="style19">
+          <img src="img/9aee47df-c73b-49d5-b11c-9e18690dcc48-image-0-1751524395838.png" width="327" height="307" alt="Tone Up" />
+        </div>
+      </td>
+      <td width="25%" class="style6">
+        <div class="style19">
+          <img src="img/ss.jpg" width="319" height="299" alt="Sunscreen" />
+        </div>
+      </td>
+      <td width="25%" class="style6">
+        <div class="style19">
+          <img src="img/images.jpg" width="305" height="298" alt="Eye Cream" />
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="product-info">
+        <p class="product-name">Moisturizer</p>
+        <p class="product-price">Rp. 56.000.00</p>
+      </td>
+      <td class="product-info">
+        <p class="product-name">Tone Up</p>
+        <p class="product-price">Rp. 34.000.00</p>
+      </td>
+      <td class="product-info">
+        <p class="product-name">Sunscreen</p>
+        <p class="product-price">Rp. 45.000.00</p>
+      </td>
+      <td class="product-info">
+        <p class="product-name">Eye Cream</p>
+        <p class="product-price">Rp. 38.000.00</p>
+      </td>
+    </tr>
+  </table>
+
+  <table border="1" cellpadding="5" cellspacing="6">
+    <tr>
+      <td width="25%">
+        <img src="img/serum.jpg" width="352" height="283" alt="Serum" />
+      </td>
+      <td width="25%">
+        <div align="center">
+          <img src="img/71415dd1-539b-4c4a-975b-8a420da99e2d-image-0-1736750347551.png" width="296" height="249" alt="Micellar water" />
+        </div>
+      </td>
+      <td width="25%">
+        <img src="img/fc.png" width="318" height="250" alt="Fw Salicylic Acid" />
+      </td>
+      <td width="25%">
+        <div align="center">
+          <img src="img/images (2).jpg" width="281" height="256" alt="Fw Micellar water" />
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td class="product-info">
+        <p class="product-name">Serum</p>
+        <p class="product-price">Rp. 53.000.00</p>
+      </td>
+      <td class="product-info">
+        <p class="product-name">Micellar water</p>
+        <p class="product-price">Rp. 22.000.00</p>
+      </td>
+      <td class="product-info">
+        <p class="product-name">Fw Salicylic Acid</p>
+        <p class="product-price">Rp. 42.000.00</p>
+      </td>
+      <td class="product-info">
+        <p class="product-name">Fw Micellar water</p>
+        <p class="product-price">Rp. 42.000.00</p>
+      </td>
+    </tr>
+  </table>
+
+</div>
+</body>
+</html>
